@@ -1,0 +1,217 @@
+{
+  "portfolio": [
+    {
+      "id": "1",
+      "title": "Gaming Retrospective",
+      "image": "/portfolio_1_1774691622446.png",
+      "link": "/portfolio/gaming-retrospective"
+    },
+    {
+      "id": "2",
+      "title": "Tech Review Showcase",
+      "image": "/hero_video_1774691517478.png",
+      "link": "/portfolio/tech-review"
+    },
+    {
+      "id": "3",
+      "title": "Cinematic Travelog",
+      "image": "/portfolio_1_1774691622446.png",
+      "link": "/portfolio/travelog"
+    },
+    {
+      "id": "4",
+      "title": "The minimalist creator",
+      "image": "/portfolio_1_1774691622446.png",
+      "link": "/portfolio/minimalist"
+    },
+    {
+      "id": "5",
+      "title": "High-Density Finance",
+      "image": "/hero_video_1774691517478.png",
+      "link": "/portfolio/finance"
+    },
+    {
+      "id": "6",
+      "title": "Lifestyle Narrative",
+      "image": "/portfolio_1_1774691622446.png",
+      "link": "/portfolio/lifestyle"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "YouTube Long Form",
+      "description": "Engaging retention editing that keeps viewers watching until the very end, boosting your watch time and algorithm push.",
+      "icon": "Video"
+    },
+    {
+      "id": "2",
+      "title": "Short Form Viral",
+      "description": "Viral-engineered TikToks, Reels, and Shorts designed for massive reach.",
+      "icon": "Film"
+    },
+    {
+      "id": "3",
+      "title": "Thumbnails",
+      "description": "High CTR thumbnails that actually get clicked.",
+      "icon": "Image"
+    },
+    {
+      "id": "4",
+      "title": "Channel Management",
+      "description": "Full A-Z management, upload optimization, and analytics tracking.",
+      "icon": "TrendingUp"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "slug": "why-creators-fail-at-retention",
+      "title": "Why Most Creators Fail at Retention",
+      "excerpt": "It's not about screaming into the microphone. It's about pacing and flow.",
+      "content": "Retention is the single most important metric on YouTube. Period. \n\nIf you can't hold an audience, you can't grow. Many creators think that hyper-editing with constant explosions is the key, but in reality, viewers are getting exhausted by it. What works today is **storytelling-driven pacing**.\n\n### The Hook\nYour first 5 seconds need to validate the thumbnail and title immediately.\n\n### The Payoff\nDon't drag out the reward. Give them what they came for, but open a new loop right after.",
+      "date": "2024-03-24",
+      "image": "/hero_video_1774691517478.png"
+    }
+  ],
+  "stats": [
+    {
+      "id": "1",
+      "value": "1,200+",
+      "label": "Videos Delivered"
+    },
+    {
+      "id": "2",
+      "value": "300+",
+      "label": "Creators Served"
+    },
+    {
+      "id": "3",
+      "value": "450M+",
+      "label": "Total Views"
+    }
+  ],
+  "workflow": [
+    {
+      "id": "1",
+      "step": "01",
+      "title": "Strategy",
+      "description": "We start by analyzing your niche, competitors, and audience behavior to craft the perfect title and hook strategy.",
+      "icon": "Target"
+    },
+    {
+      "id": "2",
+      "step": "02",
+      "title": "Visuals",
+      "description": "Our editors use advanced visual hooks, seamless transitions, and custom motion graphics to keep eyes glued to the screen.",
+      "icon": "PenTool"
+    },
+    {
+      "id": "3",
+      "step": "03",
+      "title": "Growth",
+      "description": "We optimize the final edit for maximum retention and include strategic CTAs to convert viewers into subscribers.",
+      "icon": "Zap"
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "question": "How fast is the turnaround time?",
+      "answer": "For Shorts, usually within 24 hours. For Long Form videos, 48-72 hours depending on complexity."
+    },
+    {
+      "id": "2",
+      "question": "Do you offer revisions?",
+      "answer": "Yes. Unlimited revisions until you're completely satisfied with the final product."
+    },
+    {
+      "id": "3",
+      "question": "How do we communicate?",
+      "answer": "You'll get a dedicated Slack channel with your editor and project manager for instant feedback."
+    },
+    {
+      "id": "4",
+      "question": "How does the regional pricing work?",
+      "answer": "If you're operating out of Bangladesh, you get localized BDT rates through the region toggle. For international creators, we use standard USD rates."
+    },
+    {
+      "id": "5",
+      "question": "Can I switch plans mid-month?",
+      "answer": "Absolutely. You can upgrade or downgrade your plan at any time. Changes will be prorated on your next billing cycle."
+    },
+    {
+      "id": "6",
+      "question": "What software do you use for editing?",
+      "answer": "Our primary toolset includes Adobe Premiere Pro, After Effects, and DaVinci Resolve Studio for high-end cinematic color grading."
+    },
+    {
+      "id": "7",
+      "question": "Do you handle copyright-free music?",
+      "answer": "Yes, we utilize enterprise-grade libraries like Epidemic Sound and Artlist to ensure your videos are forever monetizable."
+    },
+    {
+      "id": "8",
+      "question": "Is there a long-term contract?",
+      "answer": "No long-term commitments. All our plans are month-to-month. We believe in earning your business through results, not legal bindings."
+    },
+    {
+      "id": "9",
+      "question": "Can I book a custom consultation first?",
+      "answer": "Yes. If your project doesn't fit into our standard tiers, initiate a Custom Strategy call to discuss a bespoke dedicated partnership."
+    },
+    {
+      "id": "10",
+      "question": "Do you manage high-volume creators?",
+      "answer": "Our Founding Partnership tier is explicitly designed for agencies and massive creators posting 30+ units of high-retention content per month."
+    }
+  ],
+  "pricing": [
+    {
+      "id": "1",
+      "type": "Starter",
+      "usdPrice": "$899",
+      "bdtPrice": "৳89,900",
+      "description": "For growing creators who post 4–6 videos/month",
+      "features": [
+        "Up to 6 Videos/month",
+        "Revisions 2 per video",
+        "Basic color grading and audio sync",
+        "72 hour turnaround",
+        "Email support",
+        "Intro/Outro standard hooks"
+      ]
+    },
+    {
+      "id": "2",
+      "type": "Pro",
+      "usdPrice": "$1599",
+      "bdtPrice": "৳159,900",
+      "description": "For high-velocity creators who post 10–12 videos/month",
+      "features": [
+        "Up to 20 Videos/month",
+        "Revisions 5 per video",
+        "Advance color grading and sound design",
+        "48 hour turnaround",
+        "Video Call Support",
+        "Thumbnail A/B strategy consulting"
+      ],
+      "popular": true
+    },
+    {
+      "id": "3",
+      "type": "Enterprise",
+      "usdPrice": "Custom",
+      "bdtPrice": "Custom",
+      "description": "For enterprise creators and agencies who post massive high-velocity video volume.",
+      "features": [
+        "Choose from 10 to 40+ Video Edits",
+        "24h / 48h / 72h Priority Delivery",
+        "Title, thumbnail, and retention consulting",
+        "Shorts, Reels, long-form, and podcasts",
+        "One edit = multiple repurposed assets",
+        "Dedicated Creative Director Oversight"
+      ]
+    }
+  ]
+}

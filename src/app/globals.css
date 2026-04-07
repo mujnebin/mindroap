@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Metallic Atelier Palette: Exclusively Light Mode */
+    --bg-primary: #E2E6EC; /* Eye-Soothing Zinc Metallic */
+    --bg-secondary: #F0F4F8; /* Soft Satin Highlight */
+    --border-subtle: rgba(0, 0, 0, 0.03);
+    --border-strong: rgba(0, 0, 0, 0.08);
+    --text-primary: #111111; /* Matte Black */
+    --text-muted: #555555;
+    --accent-blue: #1ca1f1;
+    --accent-blue-hover: #118bd3;
+    
+    /* Architectural Anchors */
+    --testimonial-card-bg: #111111;
+    --testimonial-card-text: #FFFFFF;
+    --workflow-number-color: rgba(0, 0, 0, 0.06);
+    --comparison-bg: #FFFFFF;
+    --footer-bg: #F0F4F8;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
+body {
+  background-color: #F5F7FA;
+  color: var(--text-primary);
+  font-family: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 
+    0 4px 24px -1px rgba(0, 0, 0, 0.05),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.bg-atelier-metallic {
+  background: linear-gradient(135deg, #E2E6EC 0%, #F0F4F8 50%, #E2E6EC 100%);
+  position: relative;
+}
+
+.bg-atelier-metallic::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.02;
+  pointer-events: none;
+}
+
+/* Custom Scrollbar for Metallic Feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 20px;
+  border: 2px solid var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Global Animations */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.33%); }
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(200%) skewX(-15deg); }
+}
+
+.animate-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.animate-shine::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: shine 3s infinite;
+  pointer-events: none;
+}
+
+/* Typography Polish */
+h1, h2, h3, h4 {
+  letter-spacing: -0.04em;
+  font-weight: 300; /* Reverting to Light for Atelier luxury feel */
+}
+
+.font-medium-atelier {
+  font-weight: 500;
+}
